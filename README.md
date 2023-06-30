@@ -37,7 +37,9 @@ Like I said, I will get it correct, but just got it running first. Was having is
 ## 3 
 
 Once you've cloned the repos run the following command to get it running: 
-``` streamlit run body.py ```
+``` 
+streamlit run body.py
+ ```
 
 
 
