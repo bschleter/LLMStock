@@ -11,19 +11,26 @@ Made a few changes to the original code which I may decide to continuously updat
 
 
 **6/2023-** If you clone locally, you will likely run into environment, or API key errors even if you load_dotenv and create a .env file. Export your API keys to your current shell environment: 
+
 ##1
 Clone the repo. 
 I will eventually add a requirements.txt file. You need the standard apps of matplotlib, pandas, yahoo finance, openai, streamlit. 
 
 ##2 
 
-''' <export SERP_API_KEY=your_api_key_here '''
+'''
+<export SERP_API_KEY=your_api_key_here 
+'''
 
-''' export OPENAI_API_KEY=your_api_key_here '''
+'''
+export OPENAI_API_KEY=your_api_key_here
+'''
 
 
 Check to see if in current shell by 
-''' echo $SERP_API_KEY '''
+''' 
+echo $SERP_API_KEY 
+'''
 
 Like I said, I will get it correct, but just got it running first. Was having issues and got impatient. I will likely be changing it to Bing API Search because it allows up to 1000 searches/month vs. serp api. 
 
