@@ -14,6 +14,9 @@ Made a few changes to the original code which I may decide to continuously updat
 
 ## 1
 Clone the repo. 
+```
+https://github.com/bschleter/LLMStock.git
+```
 I will eventually add a requirements.txt file. You need the standard apps of matplotlib, pandas, yahoo finance, openai, streamlit. 
 
 ## 2 
