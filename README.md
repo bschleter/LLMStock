@@ -18,26 +18,26 @@ I will eventually add a requirements.txt file. You need the standard apps of mat
 
 ## 2 
 
-'''
+```
 <export SERP_API_KEY=your_api_key_here 
-'''
+```
 
-'''
+```
 export OPENAI_API_KEY=your_api_key_here
-'''
+```
 
 
 Check to see if in current shell by 
-''' 
+```
 echo $SERP_API_KEY 
-'''
+```
 
 Like I said, I will get it correct, but just got it running first. Was having issues and got impatient. I will likely be changing it to Bing API Search because it allows up to 1000 searches/month vs. serp api. 
 
 ## 3 
 
 Once you've cloned the repos run the following command to get it running: 
-''' streamlit run body.py '''
+``` streamlit run body.py ```
 
 
 
