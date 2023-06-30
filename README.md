@@ -12,13 +12,13 @@ Made a few changes to the original code which I may decide to continuously updat
 
 **6/2023-** If you clone locally, you will likely run into environment, or API key errors even if you load_dotenv and create a .env file. Export your API keys to your current shell environment: 
 
-## 1
+## 1 Clone Repository
 Clone the repo. 
 ```
 https://github.com/bschleter/LLMStock.git
 ```
 
-## 2 
+## 2 <Temporary Fix> Export API Keys to your shell
 
 ```
 <export SERP_API_KEY=your_api_key_here 
